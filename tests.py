@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import unittest
 from main import cubed,squared,fibonacci,pascal
 

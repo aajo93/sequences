@@ -1,7 +1,5 @@
-# This is a sample Python script.
+#!/usr/bin/env python3
 import argparse
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 def cubed(n):
     #TODO
@@ -77,4 +75,3 @@ if __name__ == '__main__':
     else:
         parser.print_help()
         print("{0} was an invalid operation!".format(args.operation))
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
