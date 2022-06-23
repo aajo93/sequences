@@ -2,8 +2,12 @@
 import argparse
 
 def cubed(n):
-    #TODO
-    return []
+    """returns list of numbers cubed"""
+    answers = []
+    for i in range(1,n+1):
+        answers.append(i*i*i)
+    return answers
+
 
 def squared(n):
     """returns list of numbers squared"""
